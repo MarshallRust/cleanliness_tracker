@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Annotator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2 id="imageName"></h2>
+
+<div id="container">
+    <img id="image">
+    <canvas id="canvas"></canvas>
+</div>
+
+<div class="controls">
+
+    <select id="labelSelect">
+        <option value="">Select label</option>
+        <option value="misplaced_items">misplaced_items</option>
+        <option value="dishes">dishes</option>
+        <option value="stain">stain</option>
+        <option value="clothes">clothes</option>
+        <option value="garbage">garbage</option>
+        <option value="food">food</option>
+        <option value="full_garbage">full_garbage</option>
+        <option value="other">Other</option>
+    </select>
+
+    <input type="text" id="customLabel" placeholder="Enter label" style="display:none;" />
+
+    <br><br>
+
+    <button onclick="saveBox()">Save Box</button>
+    <button onclick="nextImage()">Next Image</button>
+
+</div>
+
+<p>
+Drag to draw box<br>
+Select label → Save Box<br>
+Next Image → saves all
+</p>
+
+<script src="script.js"></script>
+
+</body>
+</html>

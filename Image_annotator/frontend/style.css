@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+#container {
+    position: relative;
+    display: inline-block;
+}
+
+#image {
+    max-width: 90vw;
+}
+
+#canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+select, input {
+    padding: 6px;
+    font-size: 14px;
+}

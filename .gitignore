@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ---- Project-specific ----
+# macOS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Model weights (yolov8x.pt is over GitHub's 100 MB limit; ultralytics re-downloads these)
+*.pt
+
+# Photos, datasets and training runs - kept local
+images/
+Image_annotator/images_raw/
+Image_annotator/dataset/
+Image_annotator/dataset_classification/
+Image_annotator/data_classification/
+Image_annotator/runs/

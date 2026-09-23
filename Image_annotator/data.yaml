@@ -1,0 +1,13 @@
+path: dataset
+
+train: images/train
+val: images/val
+
+names:
+  0: dishes
+  1: stain
+  2: clothes
+  3: garbage
+  4: food
+  5: full_garbage
+  6: misplaced_items
